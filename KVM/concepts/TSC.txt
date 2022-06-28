@@ -1,0 +1,8 @@
+
+TSC: 
+The Time Stamp Counter (TSC) is a 64-bit register present on all x86 processors 
+since the Pentium. It counts the number of CPU cycles since its reset. The 
+instruction RDTSC returns the TSC in EDX:EAX. In x86-64 mode, RDTSC also 
+clears the upper 32 bits of RAX and RDX. Its opcode is 0F 31.[1] Pentium 
+competitors such as the Cyrix 6x86 did not always have a TSC and may consider 
+RDTSC an illegal instruction. Cyrix included a Time Stamp Counter in their MII. 
