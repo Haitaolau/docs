@@ -1,1 +1,6 @@
 KVM
+
+
+kvm_init() ---> kvm_arch_hardware_setup() ----> hardware_setup() ---> setup_vmcs_config()
+
+   
